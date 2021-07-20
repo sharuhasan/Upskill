@@ -1,0 +1,148 @@
+/* Style the video: 100% width and height to cover the entire window */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  background-color: black;
+}
+
+.active {
+  color: #06aea1 !important;
+}
+
+.Video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.content {
+  position: relative;
+  color: #f1f1f1;
+}
+
+.flexbox_containerH {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  object-position: center;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.flexbox_itemHS {
+  text-align: center;
+}
+
+.flexbox_itemHS img {
+  max-width: 50%;
+  max-height: 200px;
+}
+
+.flexbox_itemHU {
+  text-align: center;
+}
+
+.flexbox_itemHU img {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.flexbox_itemHT {
+  font-family: "Great Vibes", cursive;
+  line-height: 1;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 30px;
+  font-weight: 800;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+h1,
+h3,
+h2 {
+  font-family: "Lato", serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #06aea1;
+}
+
+@media (min-width: 1280px) {
+  #main > .inner {
+    padding: 0 7em 0.1em 7em;
+  }
+}
+
+@media (max-width: 1280px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flexbox_itemHT {
+    font-size: 3.5em;
+  }
+
+  .flexbox_itemHU img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 750px) {
+  .flexbox_itemHT {
+    font-size: 2.5em;
+  }
+
+  .flexbox_itemHU img {
+    width: 100%;
+  }
+}

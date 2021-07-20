@@ -1,0 +1,137 @@
+.up-slides {
+  width: 80vw;
+}
+.up-slides .slick-prev:before,
+.slick-next:before {
+  color: red;
+}
+.up-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2em;
+  margin-bottom: 20px;
+}
+.up-container h1 {
+  font-size: 40px;
+  text-align: center;
+  /* font-family: mario; */
+}
+
+.up-slides img {
+  width: 100%;
+  height: auto;
+}
+
+.up-text {
+  text-align: justify;
+  /* font-family: shakies; */
+  margin-bottom: 1em;
+}
+
+.up-slides .up-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.up-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1100px) {
+  .up-container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    column-gap: 8%;
+    overflow: hidden;
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* margin: 0 auto; */
+  }
+
+  .up-slides {
+    width: 40vw;
+    /* margin-top: em; */
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .up-slides {
+    width: 70vw;
+    margin-top: 1.5em;
+  }
+  .up-slides .up-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+  }
+
+  .up-container h1 {
+    font-size: 35px;
+  }
+  .up-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+  }
+
+  .up-container {
+    width: 80vw;
+    margin: 0 2em;
+    margin-top: 1.5em;
+  }
+}
+
+@media (max-width: 900px) {
+  .up-container h1 {
+    font-size: 30px;
+  }
+  .up-slides .up-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+  }
+  .up-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+  }
+
+  .up-slides {
+    margin-top: 1.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .up-slides {
+    width: 80vw;
+    margin-top: 1.5em;
+  }
+  .up-container h1 {
+    font-size: 22px;
+  }
+
+  .up-text p {
+    line-height: 1.6;
+  }
+
+  .up-slides .up-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+  }
+  .up-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+  }
+}

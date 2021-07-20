@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'KOMTITB_';
+    src: local('KOMTITB_'), url(./fonts/KOMTITB_.ttf) format('truetype');
+  }
+
+  @font-face{
+    font-family: 'batter-up';
+    src: local('batter-up'), url(./fonts/batter-up.regular.ttf) format('truetype');
+  }
+
+  @font-face{
+    font-family: 'shakies';
+    src: local('shakies'), url(./fonts/Shakies-OpenType-TT.ttf) format('truetype');
+  }
+  @font-face{
+    font-family: 'atm';
+    src: local('atm'), url(./fonts/aAtmospheric.ttf) format('truetype');
+  }
+  @font-face{
+    font-family: 'swipe';
+    src: local('swipe'), url(./fonts/SwipeRaceDemo.ttf) format('truetype');
+  }
+
+  @font-face{
+    font-family: 'price';
+    src: local('price'), url(./fonts/pricedown.ttf) format('truetype');
+  }
+  @font-face{
+    font-family: 'mario';
+    src: local('mario'), url(./fonts/SuperMario256.ttf) format('truetype');
+  }
+  @font-face{
+    font-family: 'store';
+    src: local('store'), url(./fonts/miselia.otf) format('truetype');
+  }
+  @font-face{
+    font-family: 'lemon';
+    src: local('lemon'), url(./fonts/SQUARE\ LEMON.ttf) format('truetype');
+  }
+
+  @font-face{
+    font-family: 'captain';
+    src: local('captain'), url(./fonts/Franchise.ttf) format('truetype');
+  }
+  @font-face{
+    font-family: 'johny';
+    src: local('johny'), url(./fonts/johnnytorch3dital.ttf) format('truetype');
+  }
+
+
